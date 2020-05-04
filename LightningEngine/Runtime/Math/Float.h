@@ -14,7 +14,7 @@
 #define ENGINE_ABS(x) ((x) > 0.0f ? (x) : -(x))
 #define ENGINE_SQRTF(x) sqrtf(x)
 #define ENGINE_INVERSQRTF(x) (1.0f / ENGINE_SQRTF((x)))
-#define ENGINE_COSF(x) consf(x)
+#define ENGINE_COSF(x) cosf(x)
 #define ENGINE_SINF(x) sinf(x)
 #define ENGINE_SIGN(x) (x > 0.0f ? 1.0f : -1.0f)
 #define ENGINE_MAX(x, y) ((x) > (y) ? (x) : (y))
