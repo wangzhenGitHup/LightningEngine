@@ -5,8 +5,8 @@
 #pragma warning(disable:4244)
 
 #define ENGINE_PI 3.14159265358979323846264338327950288419716939937510f
-#define ENGINE_PI_DIV_180 0.017453292519943f
-#define ENGINE_180_DIV_PI 57.295779513082f
+#define ENGINE_PI_DIV_180 0.017453292519943f //角度转弧度
+#define ENGINE_180_DIV_PI 57.295779513082f  //弧度转角度
 #define ENGINE_EPSILON 0.000001f
 #define ENGINE_DEG2RAD(x) ((x) * ENGINE_PI_DIV_180)
 #define ENGINE_RAD2DEG(x) ((x) * ENGINE_180_DIV_PI)
@@ -19,6 +19,10 @@
 #define ENGINE_SIGN(x) (x > 0.0f ? 1.0f : -1.0f)
 #define ENGINE_MAX(x, y) ((x) > (y) ? (x) : (y))
 #define ENGINE_MIN(x, y) ((x) < (y) ? (x) : (y))
+
+#define  FLT_ZERO 1e-6
+#define  FLT_EQUAL(f1, f2) (fabs((f1)-(f2)) <= FLT_ZERO)
+#define  FLT_IS_ZERO(d) (fabs((d) - FLT_ZERO) <= FLT_ZERO)
 
 bool IsFinite(const float& value);
 bool IsFinite(const double& value);
@@ -41,7 +45,7 @@ namespace LightningEngine
 	template<class T>
 	T Min(const T& val1, const T& val2)
 	{
-		return val1 < val2 ？ val1 : val2;
+		return val1 < val2 ? val1 : val2;
 	}
 
 	template<class T>
