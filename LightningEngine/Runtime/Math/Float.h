@@ -27,7 +27,7 @@ const float sBiggestFloatSmallerThanOne = 0.99999994f;
 
 namespace LightningEngine
 {
-	int FllorfToInt(float f);
+	int FloorfToInt(float f);
 	bool EqualApproximately(float f0, float f1, float epsilon = 0.000001f);
 	float LinearInterpolate(float from, float to, float t);
 	float CopySignf(float x, float y);

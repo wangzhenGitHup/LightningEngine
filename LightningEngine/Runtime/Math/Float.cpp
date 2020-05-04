@@ -1,4 +1,4 @@
-#include "LightningEngineFloat.h"
+#include "Float.h"
 
 bool IsFinite(const float& val)
 {
@@ -13,7 +13,7 @@ bool IsFinite(const double& val)
 }
 namespace LightningEngine
 {
-	int FllorfToInt(float f)
+	int FloorfToInt(float f)
 	{
 		return f >= 0 ? (int)f : (int)(f - sBiggestFloatSmallerThanOne);
 	}
