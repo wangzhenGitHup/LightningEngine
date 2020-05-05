@@ -24,6 +24,13 @@
 #define  FLT_EQUAL(f1, f2) (fabs((f1)-(f2)) <= FLT_ZERO)
 #define  FLT_IS_ZERO(d) (fabs((d) - FLT_ZERO) <= FLT_ZERO)
 
+#define ENGINE_RETURN_ZERO_MAT4 do{ \
+	memset(out, 16 * sizeof(float), 0); \
+	return false; \
+	}while(0)
+
+#define SWAP_ROWS(a, b) do{float *tmp = a; (a) = (b); (b) = tmp;}while(0)
+
 bool IsFinite(const float& value);
 bool IsFinite(const double& value);
 const float sBiggestFloatSmallerThanOne = 0.99999994f;
