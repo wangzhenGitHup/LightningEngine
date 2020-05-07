@@ -54,12 +54,12 @@ namespace LightningEngine
 		return data_[row + (col * 3)];
 	}
 
-	void Matrix3x3::operator=(const Matrix4x4 & mat)
+	void Matrix3x3::operator=(const Matrix3x3 & mat)
 	{
 		memcpy(data_, mat.data_, sizeof(float) * 9);
 	}
 
-	void Matrix3x3::operator=(const Matrix3x3 & mat)
+	void Matrix3x3::operator=(const Matrix4x4 & mat)
 	{
 		data_[0] = mat.data_[0];
 		data_[1] = mat.data_[1];
@@ -133,6 +133,11 @@ namespace LightningEngine
 
 	Matrix3x3 & Matrix3x3::operator/=(float v)
 	{
+		if (FLT_IS_ZERO(v))
+		{
+			return *this;
+		}
+
 		return (*this) *= (1.0f / v);
 	}
 
