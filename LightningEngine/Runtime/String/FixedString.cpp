@@ -1,4 +1,5 @@
 #include "FixedString.h"
+#include "StringUtils.h"
 #include "Runtime/Allocator/TLSFAllocator.h"
 
 namespace LightningEngine
@@ -124,17 +125,17 @@ namespace LightningEngine
 
 	bool FixedString::StartWith(const char * pStart)
 	{
-		return false;
+		return StringUtils::StartWith(text_, pStart);
 	}
 
 	bool FixedString::EndWith(const char * pEnd)
 	{
-		return false;
+		return StringUtils::EndWith(text_, pEnd);
 	}
 
 	void FixedString::TrimEnd(const char * pEnd)
 	{
-		
+		StringUtils::TrimEnd(text_, pEnd);
 	}
 
 	void FixedString::TrimEndWithByteCount(int len)
@@ -148,16 +149,16 @@ namespace LightningEngine
 
 	void FixedString::TrimExtension()
 	{
-		
+		StringUtils::TrimFileExtension(text_);
 	}
 
 	void FixedString::ToSTDPath()
 	{
-		
+		StringUtils::ToSTDPath(text_);
 	}
 
 	void FixedString::ToLuaPath()
 	{
-		
+		StringUtils::ToLuaPath(text_);
 	}
 }
