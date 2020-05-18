@@ -52,7 +52,7 @@ namespace LightningEngine
 			return true;
 		}
 
-	private:
+	public:
 		T left_;
 		T bottom_;
 		T width_;
