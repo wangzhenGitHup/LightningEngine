@@ -45,14 +45,14 @@ namespace LightningEngine
 
 		LinkedList* GetNext() { return next_; }
 
-	protected:
+	//protected:
 		template<class T>
 		T* Next()
 		{
 			return (T*)next_;
 		}
 
-	protected:
+	//protected:
 		LinkedList* next_;
 
 	};
