@@ -1,7 +1,7 @@
 #include "Render/LightningEngineGL.h"
 #include "Log.h"
 
-#if LIGHTNING_ENGINE_WIN_PLAYER
+#if LIGHTNING_ENGINE_PLATFORM_WIN
 #pragma comment(lib, "glu32.lib")
 #endif
 
@@ -22,7 +22,7 @@ void CheckLastOpenGLError(const char * pFile, long line, const char * operation)
 			break;
 		}
 
-#if _DEBUG && LIGHTNING_ENGINE_WIN_PLAYER
+#if _DEBUG && LIGHTNING_ENGINE_PLATFORM_WIN
 		std::string str = pFile;
 		const int kMaxErrors = 10;
 		int counter = 0;
