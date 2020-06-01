@@ -3,7 +3,7 @@
 #include "Runtime/String/StringUtils.h"
 
 
-#if LIGHTNING_ENGINE_WIN_PLAYER
+#if LIGHTNING_ENGINE_PLATFORM_WIN
 #pragma comment(lib, "Lua5.1.4.lib")
 #pragma comment(lib, "LibProtoBufferLite.lib")
 #pragma comment(lib, "LibPBC.lib")
@@ -85,7 +85,7 @@ namespace LightningEngine
 			return 2;
 		}
 
-#if LIGHTNING_ENGINE_WIN_PLAYER
+#if LIGHTNING_ENGINE_PLATFORM_WIN
 		const char* libName = lua_tostring(L, 1);
 		const char* method = lua_tostring(L, 2);
 		std::unordered_map<std::string, HMODULE>::iterator iter = s_pluginsMap.find(libName);
@@ -137,7 +137,7 @@ namespace LightningEngine
 
 	void LuaEngine::CleanPlugins()
 	{
-#if LIGHTNING_ENGINE_WIN_PLAYER
+#if LIGHTNING_ENGINE_PLATFORM_WIN
 		std::unordered_map<std::string, HMODULE>::iterator iter = s_pluginsMap.begin();
 		for (; iter != s_pluginsMap.end(); )
 		{
@@ -407,7 +407,7 @@ namespace LightningEngine
 
 	bool LuaEngine::LoadScriptFromPreloadedBuffers(lua_State * L, const char * pScriptName)
 	{
-#if LIGHTNING_ENGINE_EDITOR || (LIGHTNING_ENGINE_WIN_PLAYER && _DEBUG)
+#if LIGHTNING_ENGINE_EDITOR || (LIGHTNING_ENGINE_PLATFORM_WIN && _DEBUG)
 #else
 #endif
 		return false;

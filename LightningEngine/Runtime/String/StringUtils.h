@@ -48,7 +48,7 @@ namespace LightningEngine
 		}
 #endif
 
-#if LIGHTNING_ENGINE_WIN_PLAYER || LIGHTNING_ENGINE_EDITOR
+#if LIGHTNING_ENGINE_PLATFORM_WIN || LIGHTNING_ENGINE_EDITOR
 		static void TrimStart(LPTSTR original, LPCTSTR startToTrim);
 		static void TrimEnd(LPTSTR original, LPCTSTR endToTrim);
 		static bool EndWith(LPCTSTR original, LPCTSTR end);

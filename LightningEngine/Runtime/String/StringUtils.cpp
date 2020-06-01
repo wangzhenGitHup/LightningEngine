@@ -5,7 +5,7 @@ extern "C" {
 #include "External/LibCurl/include/curl/curl.h"
 }
 
-#if LIGHTNING_ENGINE_WIN_PLAYER
+#if LIGHTNING_ENGINE_PLATFORM_WIN
 #pragma comment(lib, "libcurl.lib")
 #endif
 
@@ -249,7 +249,7 @@ namespace LightningEngine
 	}
 #endif
 
-#if LIGHTNING_ENGINE_WIN_PLAYER || LIGHTNING_ENGINE_EDITOR
+#if LIGHTNING_ENGINE_PLATFORM_WIN || LIGHTNING_ENGINE_EDITOR
 	void StringUtils::TrimStart(LPTSTR original, LPCTSTR startToTrim)
 	{
 		if (wmemcmp(startToTrim, original, lstrlen(startToTrim)) == 0)
@@ -324,7 +324,7 @@ namespace LightningEngine
 
 	bool StringUtils::EndWithI(const char * original, const char * end)
 	{
-#if LIGHTNING_ENGINE_WIN_PLAYER || LIGHTNING_ENGINE_EDITOR
+#if LIGHTNING_ENGINE_PLATFORM_WIN || LIGHTNING_ENGINE_EDITOR
 		if(_stricmp(original + strlen(original) - strlen(end), end) == 0)
 #else
 		if (strcasecmp(original + strlen(original) - strlen(end), end) == 0)

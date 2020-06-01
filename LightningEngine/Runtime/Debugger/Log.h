@@ -12,7 +12,7 @@ void ErrorLog(const char* file, int nLine, const char* format, ...);
 void SetEngineErrorReporter(void(*func)(const char* msg));
 void ReportEngineError(const char* msg);
 
-#if LIGHTNING_ENGINE_WIN_PLAYER && _DEBUG
+#if LIGHTNING_ENGINE_PLATFORM_WIN && _DEBUG
 #define Debug(f, ...) DebugLog(__FILE__, __LINE__, f, ##__VA_ARGS__)
 #else
 #define Debug(f, ...)
