@@ -101,5 +101,6 @@ namespace LightningEngine
 		Int32 referenceCount_;
 		int luaData_;
 		int objectMask_;
+		FixedString name_;
 	};
 }
