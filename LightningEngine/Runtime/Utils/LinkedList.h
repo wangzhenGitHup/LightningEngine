@@ -139,9 +139,8 @@ namespace LightningEngine
 
 		DoubleLinkedList* GetNext() { return next_; }
 		DoubleLinkedList* GetPrev() { return prev_; }
-		void ClearNext() { next_ = nullptr; }
 
-	//private:
+	private:
 		template<class T>
 		T* Next()
 		{
