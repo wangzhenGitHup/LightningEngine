@@ -30,6 +30,7 @@ namespace LightningEngine
 
 	void FBO::SetClearColor(float r, float g, float b, float a, int idx)
 	{
+		clearColor_.Set(r, g, b, a);
 	}
 
 	void FBO::Init(int width, int height)
@@ -129,10 +130,49 @@ namespace LightningEngine
 
 	void FBO::InitDepthFBOES(int width, int height)
 	{
+		width_ = width;
+		height_ = height;
+		rbo_ = new RBO;
+		rbo_->Init(width, height);
+		depthComponentBuffer_ = new Texture2D;
+		depthComponentBuffer_->InitTexture2D(width, height);
+		OGL_CALL(glGenFramebuffers(1, &frameBufferObject_));
+		OGL_CALL(glBindFramebuffer(GL_FRAMEBUFFER, frameBufferObject_));
+		OGL_CALL(glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, depthComponentBuffer_->textureID_, 0));
+#ifdef LIGHTNING_ENGINE_PLATFORM_ANDROID
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_STENCIL_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+#elif LIGHTNING_ENGINE_PLATFORM_IOS
+		
+#else
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_STENCIL_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+#endif
+		int code = glCheckFramebufferStatus(GL_FRAMEBUFFER);
+		if (code != GL_FRAMEBUFFER_COMPLETE)
+		{
+			InfoPrint("create fbo fail");
+		}
+		glBindFramebuffer(GL_FRAMEBUFFER, 0);
 	}
 
 	void FBO::InitDepthPartWithDefaultSettings(int width, int height)
 	{
+		width_ = width;
+		height_ = height;
+		rbo_ = new RBO;
+		rbo_->Init(width, height);
+		OGL_CALL(glGenFramebuffers(1, &frameBufferObject_));
+		OGL_CALL(glBindFramebuffer(GL_FRAMEBUFFER, frameBufferObject_));
+
+#ifdef LIGHTNING_ENGINE_PLATFORM_ANDROID
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_STENCIL_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+#elif LIGHTNING_ENGINE_PLATFORM_IOS
+
+#else
+		OGL_CALL(glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_STENCIL_ATTACHMENT, GL_RENDERBUFFER, rbo_->renderBufferObject_));
+#endif
+		glBindFramebuffer(GL_FRAMEBUFFER, 0);
 	}
 
 	void FBO::AttachColorBuffer(int attachPoint, Texture2D * pTex)
@@ -168,18 +208,37 @@ namespace LightningEngine
 
 	void FBO::Active()
 	{
+		glGetIntegerv(GL_FRAMEBUFFER_BINDING, &prevFrameBufferObject_);
+		glBindFramebuffer(GL_FRAMEBUFFER, frameBufferObject_);
+		glViewport(0, 0, width_, height_);
+		glClearColor(clearColor_.x_, clearColor_.y_, clearColor_.z_, clearColor_.w_);
+		GlobalRenderState::EnableZWrite(true);
+		GlobalRenderState::ColorMask(true, true, true, true);
+		GlobalRenderState::StencilMask(true);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 	}
 
 	void FBO::ActiveDepth()
 	{
+		glGetIntegerv(GL_FRAMEBUFFER_BINDING, &prevFrameBufferObject_);
+		glBindFramebuffer(GL_FRAMEBUFFER, frameBufferObject_);
+		glViewport(0, 0, width_, height_);
+		glClearColor(clearColor_.x_, clearColor_.y_, clearColor_.z_, clearColor_.w_);
+		GlobalRenderState::EnableZWrite(true);
+		GlobalRenderState::ColorMask(true, true, true, true);
+		GlobalRenderState::StencilMask(true);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	}
 
 	void FBO::Switch()
 	{
+		glGetIntegerv(GL_FRAMEBUFFER_BINDING, &prevFrameBufferObject_);
+		glBindFramebuffer(GL_FRAMEBUFFER, frameBufferObject_);
 	}
 
 	void FBO::Restore()
 	{
+		glBindFramebuffer(GL_FRAMEBUFFER, prevFrameBufferObject_);
 	}
 
 
