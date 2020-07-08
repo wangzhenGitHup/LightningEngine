@@ -43,7 +43,7 @@ namespace LightningEngine
 		void SetVec4Property(const char* uniformName, float* val);
 		void SetVec4Property(const char* uniformName, const Serializer::Vector4f& val);
 		void SetVec4ArrayProperty(const char* uniformName, int size, float* val);
-		void SetIntArrayProperty(const char* uniformName, int size, float* val);
+		void SetIntArrayProperty(const char* uniformName, int size, int* val);
 		void SetMatrix4Property(const char* uniformName, const float* val);
 		void SetMatrix3Property(const char* uniformName, float* val);
 		void UpdateUniforms(void* pCamera);
