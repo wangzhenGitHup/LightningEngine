@@ -137,10 +137,26 @@ namespace LightningEngine
 			next_ = nullptr;
 		}
 
+		void LeaveList()
+		{
+			if (nullptr != prev_)
+			{
+				prev_->next_ = next_;
+			}
+
+			if (nullptr != next_)
+			{
+				next_->prev_ = prev_;
+			}
+
+			prev_ = nullptr;
+			next_ = nullptr;
+		}
+
 		DoubleLinkedList* GetNext() { return next_; }
 		DoubleLinkedList* GetPrev() { return prev_; }
 
-	private:
+	//private:
 		template<class T>
 		T* Next()
 		{
