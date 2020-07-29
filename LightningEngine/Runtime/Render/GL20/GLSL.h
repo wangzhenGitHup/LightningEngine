@@ -32,8 +32,8 @@ namespace LightningEngine
 	public:
 		GLuint program_;
 		Attribute* attributeHead_;
-		static std::unordered_map<std::string, GLSL*> cachedGLSL_;
-		static std::unordered_map<std::string, GLSL*> builtinGLSL_;
+		static std::unordered_map<std::string, GLSL*> s_cachedGLSL;
+		static std::unordered_map<std::string, GLSL*> s_builtinGLSL;
 
 	};
 }

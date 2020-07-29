@@ -9,8 +9,8 @@
 
 namespace LightningEngine
 {
-	std::unordered_map<std::string, GLSL*> GLSL::cachedGLSL_;
-	std::unordered_map<std::string, GLSL*> GLSL::builtinGLSL_;
+	std::unordered_map<std::string, GLSL*> GLSL::s_cachedGLSL;
+	std::unordered_map<std::string, GLSL*> GLSL::s_builtinGLSL;
 
 	GLSL::GLSL() : Object(1), attributeHead_(nullptr), program_(0)
 	{
@@ -30,9 +30,9 @@ namespace LightningEngine
 	GLSL* GLSL::GetCachedProgram(const char* glsl)
 	{
 		GLSL* pRet = nullptr;
-		if (cachedGLSL_.find(glsl) != cachedGLSL_.end())
+		if (s_cachedGLSL.find(glsl) != s_cachedGLSL.end())
 		{
-			pRet = cachedGLSL_[glsl];
+			pRet = s_cachedGLSL[glsl];
 		}
 
 		return pRet;
@@ -83,11 +83,11 @@ namespace LightningEngine
 	void GLSL::UnloadGLSL(const char* name)
 	{
 		Resource::Unload(name);
-		std::unordered_map<std::string, GLSL*>::iterator iter = cachedGLSL_.find(name);
-		if (iter != cachedGLSL_.end())
+		std::unordered_map<std::string, GLSL*>::iterator iter = s_cachedGLSL.find(name);
+		if (iter != s_cachedGLSL.end())
 		{
 			delete iter->second;
-			cachedGLSL_.erase(iter);
+			s_cachedGLSL.erase(iter);
 		}
 	}
 
@@ -152,10 +152,10 @@ namespace LightningEngine
 
 				glsl->name_ = name;
 
-				cachedGLSL_.insert(std::pair<std::string, GLSL*>(name, glsl));
+				s_cachedGLSL.insert(std::pair<std::string, GLSL*>(name, glsl));
 				if (LightningEngine::StringUtils::StartWith(name, "builtin"))
 				{
-					builtinGLSL_.insert(std::pair<std::string, GLSL*>(name, glsl));
+					s_builtinGLSL.insert(std::pair<std::string, GLSL*>(name, glsl));
 				}
 			}
 			else
