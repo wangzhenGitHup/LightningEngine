@@ -1,4 +1,5 @@
 #include "Texture2D.h"
+#include "IO/FileSystem.h"
 #include "IO/ResourceManager.h"
 #include "Graphics/ImageUtils.h"
 #include "Plugins/FreeImage/FreeImage.h"

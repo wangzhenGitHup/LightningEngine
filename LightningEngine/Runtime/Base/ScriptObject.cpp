@@ -1,6 +1,10 @@
 #include "ScriptObject.h"
 #include "LuaEngine/LuaEngine.h"
+#include "Scene/GameObject.h"
+#include "Scene/EventDispatcher.h"
 #include "String/StringUtils.h"
+#include "IO/ResourceManager.h"
+#include "Scene/TouchEvent.h"
 #include "Debugger/Log.h"
 
 
@@ -11,6 +15,13 @@ namespace LightningEngine
 		fixedUpdate_(LUA_REFNIL),
 		onChar_(LUA_REFNIL),
 		onIMEChar_(LUA_REFNIL),
+		onTouchBegin_(LUA_REFNIL),
+		onTouchEnd_(LUA_REFNIL),
+		onTouchMove_(LUA_REFNIL),
+		onTouchCanceled_(LUA_REFNIL),
+		onMouseWheel_(LUA_REFNIL),
+		onTouchEnter_(LUA_REFNIL),
+		onTouchLeave_(LUA_REFNIL),
 		onKeyUp_(LUA_REFNIL),
 		onKeyDown_(LUA_REFNIL),
 		animationEnd_(LUA_REFNIL),
@@ -66,6 +77,13 @@ namespace LightningEngine
 		REF_FIELD(L, -2, fixedUpdate_, "FixedUpdate");
 		REF_FIELD(L, -2, onChar_, "OnChar");
 		REF_FIELD(L, -2, onIMEChar_, "OnIMEChar");
+		REF_FIELD(L, -2, onTouchBegin_, "OnTouchBegin");
+		REF_FIELD(L, -2, onTouchEnd_, "OnTouchEnd");
+		REF_FIELD(L, -2, onTouchMove_, "OnTouchMove");
+		REF_FIELD(L, -2, onTouchCanceled_, "OnTouchCanceled");
+		REF_FIELD(L, -2, onTouchEnter_, "OnTouchEnter");
+		REF_FIELD(L, -2, onTouchLeave_, "OnTouchLeave");
+		REF_FIELD(L, -2, onMouseWheel_, "OnMouseWheel");
 		REF_FIELD(L, -2, onKeyUp_, "OnKeyUp");
 		REF_FIELD(L, -2, onKeyDown_, "OnKeyDown");
 		REF_FIELD(L, -2, onPostRendering_, "OnPostRendering");
@@ -81,6 +99,11 @@ namespace LightningEngine
 		UNREF(L, onChar_);
 		UNREF(L, onIMEChar_);
 		UNREF(L, onTouchBegin_);
+		UNREF(L, onTouchEnd_);
+		UNREF(L, onTouchMove_);
+		UNREF(L, onTouchEnter_);
+		UNREF(L, onTouchLeave_);
+		UNREF(L, onMouseWheel_);
 		UNREF(L, onKeyUp_);
 		UNREF(L, onKeyDown_);
 		UNREF(L, animationEnd_);
@@ -116,6 +139,82 @@ namespace LightningEngine
 	void ScriptObject::FixedUpdate(float deltaTime)
 	{
 		FAST_SAFE_INVOKE_LUA_CLASS_METHOD_ARG1F(luaData_, fixedUpdate_, deltaTime);
+	}
+
+	void ScriptObject::OnTouchBegin(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchBegin_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	void ScriptObject::OnTouchEnd(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchEnd_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	void ScriptObject::OnTouchCanceled(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchCanceled_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	void ScriptObject::OnTouchMove(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchMove_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	void ScriptObject::OnTouchEnter(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchEnter_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	void ScriptObject::OnTouchLeave(const TouchEvent & touch)
+	{
+		SAFE_INVOKE_LUA_CLASS_METHOD_2F_1I(luaData_, onTouchLeave_, touch.x_, touch.y_, touch.touchID_);
+	}
+
+	//void ScriptObject::OnTouchWheel(const MouseWheelEvent & touch)
+	//{
+	//	FAST_SAFE_INVOKE_LUA_CLASS_METHOD_2I(luaData_, onTouchWheel_, touch.key_, touch.wheelDelta_);
+	//}
+
+	void ScriptObject::OnMouseWheel(const MouseWheelEvent * event)
+	{
+		FAST_SAFE_INVOKE_LUA_CLASS_METHOD_2I(luaData_, onMouseWheel_, event->key_, event->wheelDelta_);
+	}
+
+	void ScriptObject::OnCollideBegin(GameObject * obj)
+	{
+		/*lua_State* L = LuaEngine::Store();
+		lua_getref(L, luaData_);
+		lua_getfield(L, -1, "OnCollideBegin");
+		if (!lua_isnil(L, -1))
+		{
+			lua_pushvalue(L, -2);
+			obj->PushUserData(L);
+			if (lua_pcall(L, 2, 0, 0) != 0)
+			{
+				ErrorPrint("ScriptObject::OnCollideBegin %s", lua_tostring(L, -1));
+			}
+		}
+		
+		LuaEngine::Restore();*/
+	}
+
+	void ScriptObject::OnCollideEnd(GameObject * obj)
+	{
+		/*Ulua_State* L = LuaEngine::Store();
+		lua_getref(L, luaData_);
+		lua_getfield(L, -1, "OnCollideEnd");
+		if (!lua_isnil(L, -1))
+		{
+			lua_pushvalue(L, -2);
+			obj->PushUserData(L);
+			if (lua_pcall(L, 2, 0, 0) != 0)
+			{
+				ErrorPrint("ScriptObject::OnCollideEnd %s", lua_tostring(L, -1));
+			}
+		}
+
+		LuaEngine::Restore();*/
 	}
 
 	void ScriptObject::OnDestroy()

@@ -1,4 +1,7 @@
 #include "Material.h"
+#include "IO/FileSystem.h"
+#include "IO/ShaderResource.h"
+#include "Scene/SceneManager.h"
 #include "Camera.h"
 #include "String/StringUtils.h"
 #include "RenderState.h"
@@ -297,6 +300,14 @@ namespace LightningEngine
 
 	void Material::UnloadMaterial(const char* name)
 	{
+		Resource::Unload(name);
+		auto iter = s_cachedMaterials.find(name);
+		if (iter != s_cachedMaterials.end())
+		{
+			Material* pMat = iter->second;
+			delete pMat;
+			s_cachedMaterials.erase(iter);
+		}
 	}
 
 	void Material::CleanUpProperties()

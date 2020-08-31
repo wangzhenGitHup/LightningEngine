@@ -2,6 +2,7 @@
 #include "Debugger/Debugger.h"
 #include "Render/VertexData.h"
 #include "String/StringUtils.h"
+#include "IO/ShaderResource.h"
 #include "IO/ResourceManager.h"
 #include <stdlib.h>
 #include <sstream>

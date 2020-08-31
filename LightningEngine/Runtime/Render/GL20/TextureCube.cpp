@@ -3,6 +3,8 @@
 #include "IO/ResourceManager.h"
 #include "Serializer/TextureInfo.serializer.h"
 #include "String/StringUtils.h"
+#include "IO/FileSystem.h"
+#include "Graphics/ImageUtils.h"
 #include "Render/RenderState.h"
 
 namespace LightningEngine

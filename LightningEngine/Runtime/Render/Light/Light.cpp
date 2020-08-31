@@ -1,4 +1,5 @@
 #include "Light.h"
+#include "Scene/GameObject.h"
 
 namespace LightningEngine
 {

@@ -1,0 +1,241 @@
+﻿  IexMathFpu.cpp
+  b44ExpLogTable.cpp
+  ImfAcesFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfacesfile.cpp(59): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfacesfile.cpp(426): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfacesfile.cpp(432): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+  ImfAttribute.cpp
+  ImfB44Compressor.cpp
+  ImfBoxAttribute.cpp
+  ImfChannelList.cpp
+  ImfChannelListAttribute.cpp
+  ImfChromaticities.cpp
+  ImfChromaticitiesAttribute.cpp
+  ImfCompositeDeepScanLine.cpp
+  ImfCompressionAttribute.cpp
+  ImfCompressor.cpp
+  ImfConvert.cpp
+  ImfCRgbaFile.cpp
+  ImfDeepCompositing.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepcompositing.cpp(84): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  ImfDeepFrameBuffer.cpp
+  ImfDeepImageStateAttribute.cpp
+  ImfDeepScanLineInputFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(343): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(504): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(511): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(517): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(518): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(626): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(635): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1471): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1511): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1515): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1716): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1720): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1833): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineinputfile.cpp(1849): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfDeepScanLineInputPart.cpp
+  正在生成代码...
+  正在编译...
+  ImfDeepScanLineOutputFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(378): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(384): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(696): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(734): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(758): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(768): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(786): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(974): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(978): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeepscanlineoutputfile.cpp(1479): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“const unsigned int”，可能丢失数据
+  ImfDeepScanLineOutputPart.cpp
+  ImfDeepTiledInputFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(418): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(438): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(444): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(445): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(493): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(499): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(631): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(1021): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(1024): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(1495): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(1844): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledinputfile.cpp(1855): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfDeepTiledInputPart.cpp
+  ImfDeepTiledOutputFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(194): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(195): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(554): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(560): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(690): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(689): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(743): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(874): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(910): warning C4244: “参数”: 从“_Ty”转换到“size_t”，可能丢失数据
+          with
+          [
+              _Ty=Imath_2_2::Int64
+          ]
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(970): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1000): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1010): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1243): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1246): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1250): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“size_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdeeptiledoutputfile.cpp(1749): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“const unsigned int”，可能丢失数据
+  ImfDeepTiledOutputPart.cpp
+  ImfDoubleAttribute.cpp
+  ImfDwaCompressor.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(756): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(785): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(941): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(1139): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(1914): warning C4267: “+=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(2428): warning C4267: “-=”: 从“size_t”转换到“unsigned short”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(2440): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(2991): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(3028): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(3040): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(3048): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfdwacompressor.cpp(3109): warning C4018: “>”: 有符号/无符号不匹配
+  ImfEnvmap.cpp
+  ImfEnvmapAttribute.cpp
+  ImfFastHuf.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imffasthuf.cpp(153): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imffasthuf.cpp(167): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imffasthuf.cpp(183): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imffasthuf.cpp(186): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imffasthuf.cpp(256): warning C4244: “初始化”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  ImfFloatAttribute.cpp
+  ImfFloatVectorAttribute.cpp
+  ImfFrameBuffer.cpp
+  ImfFramesPerSecond.cpp
+  ImfGenericInputFile.cpp
+  ImfGenericOutputFile.cpp
+  ImfHeader.cpp
+  ImfHuf.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(171): warning C4244: “=”: 从“Imath_2_2::Int64”转换到“char”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(250): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(481): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(550): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(562): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(621): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(679): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(724): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(900): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(915): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(930): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfhuf.cpp(957): warning C4244: “初始化”: 从“Imath_2_2::Int64”转换到“unsigned char”，可能丢失数据
+  ImfInputFile.cpp
+  正在生成代码...
+  正在编译...
+  ImfInputPart.cpp
+  ImfInputPartData.cpp
+  ImfIntAttribute.cpp
+  ImfIO.cpp
+  ImfKeyCode.cpp
+  ImfKeyCodeAttribute.cpp
+  ImfLineOrderAttribute.cpp
+  ImfLut.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imflut.cpp(156): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imflut.cpp(156): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imflut.cpp(174): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  ImfMatrixAttribute.cpp
+  ImfMisc.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfmisc.cpp(313): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfmisc.cpp(708): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  ImfMultiPartInputFile.cpp
+  ImfMultiPartOutputFile.cpp
+  ImfMultiView.cpp
+  ImfOpaqueAttribute.cpp
+  ImfOutputFile.cpp
+  ImfOutputPart.cpp
+  ImfOutputPartData.cpp
+  ImfPartType.cpp
+  ImfPizCompressor.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfpizcompressor.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ImfPreviewImage.cpp
+  正在生成代码...
+  正在编译...
+  ImfPreviewImageAttribute.cpp
+  ImfPxr24Compressor.cpp
+  ImfRational.cpp
+  ImfRationalAttribute.cpp
+  ImfRgbaFile.cpp
+  ImfRgbaYca.cpp
+  ImfRle.cpp
+  ImfRleCompressor.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfrlecompressor.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ImfScanLineInputFile.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfscanlineinputfile.cpp(1467): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+  ImfStandardAttributes.cpp
+  ImfStdIO.cpp
+  ImfStringAttribute.cpp
+  ImfStringVectorAttribute.cpp
+  ImfSystemSpecific.cpp
+  ImfTestFile.cpp
+  ImfThreading.cpp
+  ImfTileDescriptionAttribute.cpp
+  ImfTiledInputFile.cpp
+  ImfTiledInputPart.cpp
+  ImfTiledMisc.cpp
+  正在生成代码...
+  正在编译...
+  ImfTiledOutputFile.cpp
+  ImfTiledOutputPart.cpp
+  ImfTiledRgbaFile.cpp
+  ImfTileOffsets.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imftileoffsets.cpp(154): warning C4244: “参数”: 从“Imath_2_2::Int64”转换到“int”，可能丢失数据
+  ImfTimeCode.cpp
+  ImfTimeCodeAttribute.cpp
+  ImfVecAttribute.cpp
+  ImfVersion.cpp
+  ImfWav.cpp
+  ImfZip.cpp
+  ImfZipCompressor.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmimf\imfzipcompressor.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ImathBox.cpp
+  ImathColorAlgo.cpp
+  ImathFun.cpp
+  ImathMatrixAlgo.cpp
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(118): warning C4018: “<”: 有符号/无符号不匹配
+  e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(254): note: 参见对正在编译的函数 模板 实例化“Imath_2_2::M44d Imath_2_2::procrustesRotationAndTranslation<double>(const Imath_2_2::V3d *,const Imath_2_2::V3d *,const double *,const size_t,const bool)”的引用
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(160): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(200): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\openexr\imath\imathmatrixalgo.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+  ImathRandom.cpp
+  ImathShear.cpp
+  ImathVec.cpp
+  IexBaseExc.cpp
+  IexThrowErrnoExc.cpp
+  正在生成代码...
+  正在编译...
+  half.cpp
+  IlmThread.cpp
+e:\engine\engine\external\freeimage\source\openexr\ilmthread\ilmthread.cpp(67): warning C4297: “IlmThread_2_2::Thread::~Thread”: 假定函数不引发异常，但确实发生了
+  e:\engine\engine\external\freeimage\source\openexr\ilmthread\ilmthread.cpp(67): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  IlmThreadMutex.cpp
+  IlmThreadPool.cpp
+  IlmThreadSemaphore.cpp
+  IexMathFloatExc.cpp
+  正在生成代码...
+ImathShear.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+ImathBox.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  OpenEXR.2017.vcxproj -> E:\Engine\Engine\External\FreeImage\Source\OpenEXR\.\Win32\Debug\OpenEXR.lib

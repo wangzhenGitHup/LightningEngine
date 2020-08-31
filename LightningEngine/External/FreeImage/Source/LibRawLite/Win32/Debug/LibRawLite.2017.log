@@ -1,0 +1,845 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  libraw_datastream.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  libraw_cxx.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_fuji_compressed.cpp(85): warning C4101: “i”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_fuji_compressed.cpp(245): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_fuji_compressed.cpp(299): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(185): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(276): warning C4244: “参数”: 从“INT64”转换到“const int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(474): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1185): warning C4018: “>=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1659): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1669): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1670): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1673): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1855): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1859): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1909): warning C4244: “=”: 从“UINT64”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(1867): warning C4101: “val”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2015): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2016): warning C4018: “<=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2090): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2106): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2184): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2206): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2223): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2283): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2014): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2020): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2039): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2053): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2111): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2112): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2115): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2128): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2166): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2168): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2175): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2214): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2242): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2249): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2270): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2271): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2294): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2295): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2891): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(2896): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3058): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3063): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3171): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3327): warning C4101: “err”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3343): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3459): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3460): warning C4244: “/=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3503): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3540): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3786): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(3798): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4017): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4026): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4040): warning C4305: “初始化”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4071): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4083): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4175): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4296): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4299): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4375): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1338): note: 参见“swab”的声明
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4676): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4688): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4697): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4752): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4764): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4765): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(4769): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(780): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(797): warning C4244: “=”: 从“INT64”转换到“uint32_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(913): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(947): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(920): warning C4101: “i”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(978): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1128): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1160): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1332): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1337): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1350): warning C4018: “>=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1411): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1453): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1458): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1511): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1529): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1549): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1577): warning C4244: “初始化”: 从“INT64”转换到“uint32_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1595): warning C4244: “初始化”: 从“INT64”转换到“uint32_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1624): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1630): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1685): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1761): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1766): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1803): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1921): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1972): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(1980): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2079): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2143): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2204): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2215): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2220): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2231): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2236): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\libraw_x3f.cpp(2269): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6177): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6182): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6189): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6201): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6203): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6205): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6207): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6209): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6213): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6217): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6225): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6229): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6267): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6370): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6461): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6479): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6482): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6484): warning C4244: “=”: 从“double”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6488): warning C4244: “=”: 从“double”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6530): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6531): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6551): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6552): warning C4244: “=”: 从“float”转换到“uint16_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6608): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6613): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6619): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\src\libraw_cxx.cpp(6624): warning C4018: “<”: 有符号/无符号不匹配
+  libraw_c_api.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  demosaic_packs.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(146): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(151): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(634): warning C4305: “/=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(635): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(671): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(673): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(723): warning C4305: “/=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(724): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(783): warning C4305: “/=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(784): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(785): warning C4305: “/=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(786): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(754): warning C4101: “h1”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dht_demosaic.cpp(754): warning C4101: “h2”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(53): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(56): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(59): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(294): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(344): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(542): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\aahd_demosaic.cpp(544): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(51): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(65): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(107): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(116): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(117): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(132): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(141): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(142): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(160): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(175): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(177): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(203): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(204): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(218): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(219): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(220): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(260): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(264): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(265): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(266): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(267): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(268): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(269): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(270): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(271): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(277): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(278): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(279): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(280): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(282): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(284): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(285): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(253): warning C4101: “j”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(253): warning C4101: “i”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(325): warning C4101: “current”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(325): warning C4101: “c”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(353): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(365): warning C4101: “pix”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(419): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(445): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(459): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(384): warning C4101: “tmp”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(498): warning C4101: “pix”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(559): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(560): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(561): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(562): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(564): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(565): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(566): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(567): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcb_demosaicing.c(552): warning C4101: “current”: 未引用的局部变量
+  dcraw_fileio.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  dcraw_common.cpp
+e:\engine\engine\external\freeimage\source\librawlite\libraw\libraw_const.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(147): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(328): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(331): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1338): note: 参见“swab”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(348): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(349): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(388): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(469): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(510): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(539): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(828): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1274): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1299): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1301): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1311): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1313): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1314): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1336): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1354): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1359): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1372): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1430): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1639): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1640): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1641): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1642): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1713): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1740): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1758): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1839): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1841): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1850): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1854): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1860): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1865): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1868): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1873): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1920): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1925): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1930): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1937): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1942): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1976): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(1982): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2014): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2048): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2053): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2067): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2073): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2077): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2081): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2089): warning C4018: “>=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2089): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2118): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2123): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2146): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2158): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2159): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2168): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2238): warning C4244: “return”: 从“UINT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2246): warning C4244: “=”: 从“UINT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2302): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2393): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2418): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2510): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2530): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(2673): warning C4244: “=”: 从“UINT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(3243): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(3271): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(3802): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4348): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4350): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4481): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4486): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4784): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4842): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4854): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4952): warning C4305: “初始化”: 从“double”到“const float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4973): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4981): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(4987): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5011): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5029): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5032): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5221): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5222): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5262): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5274): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5336): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5336): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5381): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5381): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5382): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5387): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5387): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5388): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5393): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5475): warning C4018: “>=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5475): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5487): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5814): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5819): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5820): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5833): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5834): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5835): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(5892): warning C4804: “<<”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6116): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6208): warning C4101: “xyz”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6382): warning C4101: “k”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6383): warning C4101: “xyz_cam”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6382): warning C4101: “j”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6382): warning C4101: “i”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6383): warning C4101: “r”: 未引用的局部变量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6594): warning C4305: “初始化”: 从“double”到“const float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6596): warning C4305: “初始化”: 从“double”到“const float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6608): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6622): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6629): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6630): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6651): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6652): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6652): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6653): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6660): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6669): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6684): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6691): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6705): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6714): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6726): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6748): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6797): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6914): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6916): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6918): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(6920): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(7103): warning C4018: “>=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(7489): warning C4244: “初始化”: 从“INT64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(7521): warning C4244: “初始化”: 从“INT64”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(7879): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(7934): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8149): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8189): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8192): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8195): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8380): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8565): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8569): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8960): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8962): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8983): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8985): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9006): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9067): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9111): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9209): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9245): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9247): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8936): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(8998): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9316): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9326): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9338): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9351): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9416): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9419): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9425): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9425): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9458): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9502): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9503): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9504): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9505): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9638): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9638): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9667): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9689): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9690): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9703): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9704): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9714): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9779): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9842): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9953): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9969): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9981): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10063): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9411): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9414): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9440): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9446): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(9662): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10073): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10074): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10075): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10076): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10163): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10170): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10176): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10185): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10197): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10210): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10218): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10229): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10240): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10413): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10413): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10418): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10422): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10454): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10505): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10506): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10507): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10508): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10638): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10792): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10801): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10817): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10827): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10936): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10952): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10964): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11022): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11050): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11081): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11081): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11086): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11094): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11121): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11150): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11171): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11172): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11185): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11186): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11196): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11244): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11245): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11260): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11282): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11283): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11284): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11324): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11378): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11476): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11477): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11495): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11499): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11508): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11510): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11515): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11516): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11566): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11607): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11611): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11620): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10214): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10216): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10220): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10224): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10225): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10238): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10246): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10272): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10273): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10394): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10395): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10407): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10420): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10436): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(10442): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11060): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11061): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11062): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11063): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11140): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11146): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11374): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11530): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11560): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11706): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11711): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11714): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11717): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11720): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11723): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11733): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11734): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11735): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11736): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11742): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11743): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11744): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11745): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11756): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11760): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11763): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11770): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11774): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11782): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11786): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11789): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11792): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11811): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11814): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11769): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11773): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11915): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11919): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11923): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11926): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11976): warning C4305: “初始化”: 从“double”到“const float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(11981): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12038): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12143): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12144): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12146): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12147): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12191): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12197): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12202): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12204): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12265): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12301): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12331): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12361): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12391): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12421): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12448): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12454): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12459): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12603): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12680): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12682): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12681): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12698): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12747): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12777): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12888): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12927): warning C4244: “初始化”: 从“INT64”转换到“off_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12930): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12972): warning C4244: “初始化”: 从“INT64”转换到“off_t”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12975): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12986): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13018): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13028): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13055): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13082): warning C4018: “<=”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13095): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13124): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13159): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13178): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13181): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13191): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13194): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13197): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13203): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13213): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13216): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13222): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13223): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13224): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13225): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13236): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13244): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13259): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13263): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13291): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13300): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13349): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13395): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13505): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13531): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13561): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13567): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13568): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13580): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13584): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13585): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13594): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13605): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13609): warning C4244: “+=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13611): warning C4244: “+=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13624): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13630): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13631): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13645): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13646): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13658): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13659): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13705): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13722): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13738): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13750): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13764): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13796): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13819): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13865): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13947): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13950): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13949): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14000): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14050): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14069): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14072): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12596): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12597): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(12598): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13647): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13660): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13668): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(13675): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14119): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14261): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14376): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14381): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14179): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14208): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14214): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14224): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14426): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14429): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14488): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14445): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14553): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14662): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14666): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14670): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14712): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14718): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14764): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14779): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14800): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14805): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14942): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14969): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14975): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(14990): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15000): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15010): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15024): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15037): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15041): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15130): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15189): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15353): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15355): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15397): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15435): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15462): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(549): note: 参见“stricmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15482): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15491): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15575): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15576): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15579): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(15597): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17223): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17227): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17201): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17247): warning C4305: “初始化”: 从“double”到“const float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17293): warning C4244: “=”: 从“UINT64”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17301): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17328): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17685): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17731): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17736): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17817): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17821): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17871): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17872): warning C4244: “参数”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(17982): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18011): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18051): warning C4244: “初始化”: 从“INT64”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18448): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18449): warning C4305: “*=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18559): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18560): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18561): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18576): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18577): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18578): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18606): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18607): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19120): warning C4244: “=”: 从“INT64”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19294): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19295): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19296): warning C4305: “=”: 从“double”到“float”截断
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19458): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19462): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19480): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19495): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19690): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19714): warning C4804: “>>”: 在操作中使用类型“bool”不安全
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18110): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18124): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18239): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18284): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18700): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18862): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18929): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(18939): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19050): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19235): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19240): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(560): note: 参见“strnicmp”的声明
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19866): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19884): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19886): warning C4018: “<”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19892): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19893): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19950): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19951): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19962): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19962): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19963): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19963): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19964): warning C4018: “>”: 有符号/无符号不匹配
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(19970): warning C4244: “=”: 从“float”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20001): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20006): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20011): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20017): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20022): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20027): warning C4244: “=”: 从“double”转换到“ushort”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20085): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20086): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20087): warning C4244: “*=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20134): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20215): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20230): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\engine\engine\external\freeimage\source\librawlite\internal\dcraw_common.cpp(20261): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _swab. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1338): note: 参见“swab”的声明
+  正在生成代码...
+  LibRawLite.2017.vcxproj -> E:\Engine\Engine\External\FreeImage\Source\LibRawLite\.\Win32\Debug\LibRaw.lib

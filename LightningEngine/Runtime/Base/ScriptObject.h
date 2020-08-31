@@ -6,6 +6,9 @@
 
 namespace LightningEngine
 {
+	class GameObject;
+	class TouchEvent;
+	class MouseWheelEvent;
 
 	class ScriptObject : public Component
 	{
@@ -21,6 +24,16 @@ namespace LightningEngine
 		bool GetMethod(lua_State* L, const char* methodName);
 		void Update(float deltaTime);
 		void FixedUpdate(float deltaTime);
+		void OnTouchBegin(const TouchEvent& touch);
+		void OnTouchEnd(const TouchEvent& touch);
+		void OnTouchCanceled(const TouchEvent& touch);
+		void OnTouchMove(const TouchEvent& touch);
+		void OnTouchEnter(const TouchEvent& touch);
+		void OnTouchLeave(const TouchEvent& touch);
+		void OnTouchWheel(const MouseWheelEvent& touch);
+		void OnMouseWheel(const MouseWheelEvent* event);
+		void OnCollideBegin(GameObject* obj);
+		void OnCollideEnd(GameObject* obj);
 		void OnDestroy();
 		void OnShow();
 		void OnHide();
@@ -45,6 +58,14 @@ namespace LightningEngine
 		int fixedUpdate_;
 		int onChar_;
 		int onIMEChar_;
+		int onTouchBegin_;
+		int onTouchEnd_;
+		int onTouchCanceled_;
+		int onTouchMove_;
+		int onTouchEnter_;
+		int onTouchLeave_;
+		//int onTouchWheel_;
+		int onMouseWheel_;
 		int onKeyUp_;
 		int onKeyDown_;
 		int animationEnd_;

@@ -5,6 +5,8 @@
 #include "Serializer/TextureAtlas.serializer.h"
 #include "Debugger/Debugger.h"
 #include "TextureResource.h"
+#include "AudioResource.h"
+#include "FontResource.h"
 
 namespace LightningEngine
 {
@@ -47,7 +49,9 @@ namespace LightningEngine
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypePNGImage, LoadImageResource));
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeMaterial, LoadMaterialResource));
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeShader, LoadShaderResource));
+		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeMP3, LoadAudioResource));
 
+		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeFont, LoadFontResource));
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypePrefab, LoadPrefabResource));
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeScene, LoadSceneResource));
 		assetLoader_.insert(std::pair<ResourceType, Resource*(*)(Serializer::RuntimeAsset*) >(ResourceTypeAnimation, LoadAnimationResource));
@@ -131,6 +135,14 @@ namespace LightningEngine
 		else if (StringUtils::EndWithI(path, ".bmp"))
 		{
 			pRes = TextureResource::CreateTextureResourceFromRawData(path, data);
+		}
+		else if (StringUtils::EndWithI(path, ".mp3"))
+		{
+			pRes = AudioResource::CreateAudioResourceWithRawData(path, data);
+		}
+		else if (StringUtils::EndWithI(path, ".ttf"))
+		{
+			pRes = FontResource::CreateFontResourceWithRawData(path, data);
 		}
 
 		if (pRes)
